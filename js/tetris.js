@@ -174,4 +174,5 @@ restartButton.addEventListener('click', () => {
   playground.innerHTML = '';
   gameText.style.display = 'none';
   init();
+  scoreDisplay.innerText = 0;
 });
